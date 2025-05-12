@@ -60,7 +60,7 @@ const HeroSection = React.forwardRef((props, ref) => {
         <div className="max-w-screen-xl z-10 mx-auto px-4 py-28 gap-12 md:px-8">
           <div className="space-y-5 max-w-4xl leading-0 lg:leading-5 mx-auto text-center">
             <h1 className="text-sm text-gray-300 group font-geist mx-auto px-5 py-2 bg-gradient-to-tr from-zinc-300/5 via-gray-400/5 to-transparent border-[2px] border-white/2 rounded-3xl w-fit">
-              Welcome to CodeStrive ✨
+              Welcome to Medcheck ✨
             </h1>
             <h2 className="text-4xl tracking-tighter font-serif bg-clip-text text-transparent mx-auto md:text-6xl bg-[linear-gradient(180deg,_#FFF_0%,_rgba(255,_255,_255,_0.00)_202.08%)]">
               Elevate Your Technical Abilities{" "}
@@ -120,7 +120,7 @@ const HeroSection = React.forwardRef((props, ref) => {
                           await axios
                             .post("http://localhost:9000/RegisterUser", {
                               userName: User.user.firstName,
-                              useremail: User.user.primaryEmailAddress.emailAddress,
+                              userEmail: User.user.primaryEmailAddress.emailAddress,
                               ImageUrl: User.user.imageUrl,
                               Role: "Patient"
                             })

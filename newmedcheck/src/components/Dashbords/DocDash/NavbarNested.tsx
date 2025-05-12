@@ -12,7 +12,7 @@ import { UserButton } from '../DocDash/UserButton';
 import { LinksGroup } from '../DocDash/NavbarLinksGroup';
 import DashLogo from '../DocDash/DashLogo'
 import { IconPill } from '@tabler/icons-react';
-import classes from '../DocDash/NavbarNested.module.css';
+import classes from '../../../components/Dashbords/DocDash/NavbarLinksGroup.module.css';
 import Allpatients from './Pages/Allpatients';
 
 const mockdata = [

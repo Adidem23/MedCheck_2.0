@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="flex w-full justify-between items-center">
           <NavLink href="#services">Home</NavLink>
           <NavLink href="#about">Features</NavLink>
-          <p className="text-3xl text-white font-semibold">CodeStrive</p>
+          <p className="text-3xl text-white font-semibold">Medcheck</p>
           <NavLink href="#footer">Contact</NavLink>
           <NavLink>
             <SignInButton />

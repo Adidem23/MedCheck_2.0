@@ -44,7 +44,7 @@ const NewNav = () => {
           <NavLink href="#services">Home</NavLink>
           <NavLink href="#about">Features</NavLink>
           <NavLink href="/profile">Profile</NavLink>
-          <p className="text-3xl text-white font-semibold">CodeStrive</p>
+          <p className="text-3xl text-white font-semibold">Medcheck</p>
           <NavLink>{User.user.firstName}</NavLink>
           <NavLink>
             <img

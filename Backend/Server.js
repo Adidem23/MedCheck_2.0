@@ -54,7 +54,7 @@ app.post('/RegisterUser', async (req, res) => {
 
     const Newuser = new UsersDB({
         Name: userName,
-        Email:userEmail ,
+        Email:userEmail,
         Role: Role
     })
 

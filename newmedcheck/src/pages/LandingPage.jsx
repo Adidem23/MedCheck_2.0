@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "../components/Footer.jsx";
 import Testimonials from "../components/Testimonial.jsx";
 import { HeroSection } from "../components/HeroSection.jsx";
